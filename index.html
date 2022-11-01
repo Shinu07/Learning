@@ -1,163 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Shinu Learning</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <h1>Soumya Component Library</h1>
-    <p>
-      I am attending neog.camp and I want to make a library which would make all
-      my projects look good and consistent.
-    </p>
 
-    <hr />
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | adarshbalika</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
 
-    <h2>@Typography</h2>
+<body>
 
-    <h1>This is the H1 Biggest</h1>
-
-    <h2>This is the H2</h2>
-    <h3>This is the H3</h3>
-    <h4>This is the H4</h4>
-
-    <hr />
-
-    <h2>@Container</h2>
-
-    <h3>fluid container</h3>
-
-    <div class="container">
-      This is a centered container and it will go till the speecified width
+  <nav class="navigation container" style="height: 100px;">
+    <div class="nav-brand">
+      <a class="link" href="/">adarshbalika</a>
     </div>
-
-    <h3>center container</h3>
-    <div class="container container-center"></div>
-
-    <hr />
-
-    <h2>@Links</h2>
-
-    <a class="link link-Primary" href="/">Primary Link</a>
-    <a class="link link-Secondary" href="/">Secondary Link</a>
-
-    <hr />
-
-    <h2>@Lists</h2>
-
-    <h3>Unodered List</h3>
-
-    <ul>
-      <li>Item One</li>
-      <li>Item Two</li>
-      <li>Item Three</li>
-      <li>Item Four</li>
-      <li>Item Five</li>
-    </ul>
-
-    <h3>Unodered Inline List</h3>
-
-    <ul>
-      <li>Inline Item One</li>
-      <li>Inline Item Two</li>
-      <li>Inline Item Three</li>
-      <li>Inline Item Four</li>
-      <li>Inline Item Five</li>
-    </ul>
-
-    <h3>Reverse Odered List</h3>
-
-    <ol>
-      <li>Item One</li>
-      <li>Item Two</li>
-      <li>Item Three</li>
-      <li>Item Four</li>
-      <li>Item Five</li>
-    </ol>
-
-    <hr />
-
-    <h2>@Nav</h2>
-
-    <nav class="navigation container">
-      <div class="nav-brand">I am Brand</div>
-      <ul class="list-non-bullet nav-pills">
+    
+      <ul class="list-non-bullet nav-pills" >
         <li class="list-item-inline">
-          <a class="link link-active" href="/">Home</a>
+          <a class="link link-active" href="/">home</a>
         </li>
         <li class="list-item-inline">
-          <a class="link" href="/">Products</a>
+          <a class="link" href="projects.html">projects</a>
         </li>
         <li class="list-item-inline">
-          <a class="link" href="/">About</a>
+          <a class="link" href="blogs.html">about</a>
         </li>
       </ul>
-    </nav>
+  </nav>
 
-    <hr />
 
-    <h2>Header</h2>
+  <header class="hero">
+    <img class="hero-img" style="width:30rem ;" src="/images/header_image.svg" alt="header_image" />
+    <h1 class="hero-heading">
+      Adarsh Balika the <span class="heading-inverted">Web developer</span>
+    </h1>
+  </header>
 
-    <header class="hero">
-      <img class="hero-img" src="images\header_image.svg" alt="header_image" />
-      <h1 class="hero-heading">
-        Adarsh balika the <span class="heading-inverted">Web developer</span>
-      </h1>
-    </header>
-
-    <hr />
-
-    <h2>@Section</h2>
-    <section class="section">
+  <div class="sky">
+    <section class="section sky-white">
       <div class="container container-center">
-        <h1>White Section</h1>
+        <h1>Technologies</h1>
+        <p>I'm familiar with HTML5, CSS3, JavaScript, Git, Github,
+          NodeJS, ReactJS and <br>Web Hosting
+        </p>
+      </div>
+    </section>
+
+    <section class="section sky-white">
+      <div class="container container-center">
+        <h1>Projects</h1>
         <p>
-            Lorem ipsum dolor sit amet, 
-            consectetur adipiscing elit, 
-            sed do eiusmod tempor incididunt ut labore et
-             dolore magna aliqua. Ut enim ad
-            minim veniam, quis nostrud exercitation u
-            llamco laboris nisi ut aliquip ex ea commodo consequat. 
-            Duis aute irure dolor in reprehenderit in voluptate velit 
-            esse cillum dolore eu fugiat nulla
-            pariatur. 
+          I like to show case my work and thus, you can
+          see my projects hosted online
         </p>
+        <a class="link link-Primary" href="/projects.html">see projects</a>
       </div>
     </section>
 
-    <section class="section sky">
+    <section class="section sky-white">
       <div class="container container-center">
-        <h1>Off white section</h1>
-        <p>Lorem ipsum dolor sit amet, 
-            consectetur adipiscing elit, 
-            sed do eiusmod tempor incididunt ut labore et
-             dolore magna aliqua. Ut enim ad
-            minim veniam, quis nostrud exercitation u
-            llamco laboris nisi ut aliquip ex ea commodo consequat. 
-            Duis aute irure dolor in reprehenderit in voluptate velit 
-            esse cillum dolore eu fugiat nulla
-            pariatur. 
-        </p>
+        <h1>blogs</h1>
+        <p>
+          I am also working on Some technical and non technical blogs. <br>
+          I like to document my journey of learning.</p>
+        <a class="link link-Secondary" href="/blogs.html">see blogs</a>
       </div>
     </section>
+  </div>
 
-    <hr />
+  <footer class="footer">
+    <div class="footer-header">Social Media Presence </div>
+    <ul class="social-links list-non-bullet">
+      <li class="list-item-inline"><a class="link" href="https://github.com/Shinu07">github</a></li>
+      <li class="list-item-inline"><a class="link"
+          href="https://www.linkedin.com/in/soumya-ranjan-p-043489222/">LinkedIn</a></li>
+      <li class="list-item-inline"><a class="link" href="https://twitter.com/soumyar86515799">Twitter</a></li>
+    </ul>
 
-    <footer class="footer">
-      <div class="footer-header">Some small heading 
-        inside footer </div>
-        <ul class="social-links list-non-bullet">
-          <li class="list-item-inline"><a class="link" href="/">SocialOne</a></li>
-          <li class="list-item-inline"><a class="link" href="/">SocialTwo</a></li>
-          <li class="list-item-inline"><a class="link" href="/">SocialThree</a></li>
-        </ul>
-    </footer>
-  </body>
+    <p>@Soumya Ranjan Purohit</p>
+  </footer>
+
+</body>
+
 </html>

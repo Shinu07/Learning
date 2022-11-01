@@ -1,29 +1,44 @@
 /* css */
 
 :root {
-  --blue: #1d4ed8;
+  --blue: #2255e1;
   --light-blue: #93c5fd;
   --sky: #c9e8fd;
+  --sky-white: #f0f9ff;
+  font-family: "Montserrat", sans-serif;
 }
 
 body {
   font-family: "Montserrat", sans-serif;
-margin:0rem ;
+  margin:0px auto;
+  max-width: 100%;
+  width: 100%;
 }
 
 /** constainer **/
+
 
 .container {
   /* padding-left: 1rem;
     padding-right: 1rem;
      */
   padding: 0rem 1rem;
+
+  text-align: center;
+
 }
 
 .container-center {
-  max-width: 600px;
+  /* text-align: center; */
+  padding-top: 1rem;
+  border-radius: 1.2rem;
+  box-shadow: 20px 20px 50px skyblue;
+  max-width: 800px;
+  max-height: 250px;
+  height: 12rem;
   margin: auto;
 }
+
 
 /* links */
 
@@ -33,59 +48,76 @@ margin:0rem ;
 }
 
 .link-Primary {
+  margin-left: 0.5rem;
   background-color: var(--blue);
   border-radius: 0.5rem;
   color: rgb(215, 241, 255);
 }
 
 .link-Secondary {
+  margin-left: 0.5rem;
   color: var(--blue);
   border-radius: 0.5rem;
-  border: 1.5px solid var(--blue);
+  border: 1px solid var(--blue);
 }
 
 /* lists */
 
 .list-non-bullet {
   list-style: none;
+  padding-inline-start: 0px;
 }
 
 .list-item-inline {
+
   display: inline;
-  padding: 0rem 0.5rem;
+  padding: 0rem 0.3rem;
 }
 
 /* Navigation */
 
+
+
 .navigation {
+ 
+  padding-bottom: 1rem;
   background-color: var(--blue);
   color: white;
-  border-radius: 0.3rem;
+  padding: 1rem;
+  border-bottom-left-radius: 1rem;
 }
 
 .navigation .nav-brand {
-  font-weight: bold;
-  font-size: 1.1rem;
+  text-align: left;
+  font-size: 1.5rem;
+
 }
+
 .navigation .nav-pills {
   text-align: right;
+  margin: 0.5rem 0.5rem;
+  
 }
+
 .navigation .link {
   color: white;
+  
 }
 
 .navigation .link-active {
   font-weight: bold;
+  font-size: large;
+  
 }
 
 /* header */
 
 .hero {
-  padding: 2rem;
+  padding: 5rem;
 }
 
-.hero .hero-img {
-  max-width: 350px;
+.hero-img {
+  max-width: 40rem;
   display: block;
   margin: auto;
 }
@@ -98,34 +130,53 @@ margin:0rem ;
 
 .hero .hero-heading .heading-inverted {
   color: var(--blue);
+
 }
 
-.section{
-padding: 2rem;
+.section {
+  padding: 2rem;
 }
+
 .section h1 {
   text-align: center;
-  
+
 }
 
 .sky {
-    background-color: var(--sky);
+  background-color: #eff6ff;
+  padding-bottom: 2rem;
 }
+
+/* .sky-white {
+  background-color:var(--sky-white) ;
+} */
 
 /* footer */
 .footer {
-    background-color: var(--blue);
-    padding: 2rem 1rem;
-    text-align: center;
-    color: white;
-    border-top-right-radius: ;
+  background-color: var(--blue);
+  padding: 1rem 0.3rem;
+  text-align: center;
+  color: white;
+  border-top-right-radius: 0.2rem;
+  border-top-left-radius: 0.2rem;
 }
 
 .footer .link {
-    color: white;
+  color: white;
 }
 
-.footer ul{
+.footer .footer-header {
+  font-weight: 650;
+  font-size: large;
+  padding-bottom: 0.5rem;
+}
+
+.footer ul {
   padding-inline-start: 0px;
 
+}
+
+.list-non-bullet {
+  padding-bottom: 2rem;
+  
 }
