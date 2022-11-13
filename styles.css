@@ -1,7 +1,5 @@
-/* css */
-
 :root {
-  --blue: #2255e1;
+  --blue: #0652f6;
   --light-blue: #93c5fd;
   --sky: #c9e8fd;
   --sky-white: #f0f9ff;
@@ -10,44 +8,52 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  margin:0px auto;
-  max-width: 100%;
-  width: 100%;
+  margin: auto;
+  padding: auto;
 }
 
-/** constainer **/
-
+/* container */
 
 .container {
-  /* padding-left: 1rem;
-    padding-right: 1rem;
-     */
-  padding: 0rem 1rem;
-
+  width: auto;
+  position: relative;
+  padding: 0rem 0.5rem;
   text-align: center;
+  box-sizing: border-box;
+  height: 100%;
+  min-height: auto;
+  max-height: fit-content;
 
 }
 
 .container-center {
-  /* text-align: center; */
-  padding-top: 1rem;
+  position: relative;
+  padding: 1rem 1rem 1.5rem 1rem;
+  box-sizing: border-box;
+  word-spacing: 2px;
   border-radius: 1.2rem;
-  box-shadow: 20px 20px 50px skyblue;
-  max-width: 800px;
-  max-height: 250px;
-  height: 12rem;
+  box-shadow: 7px 20px 50px skyblue;
+  width: 67%;
   margin: auto;
+  height: 100%;
+  min-height: auto;
+  max-height: fit-content;
 }
-
 
 /* links */
 
 .link {
   text-decoration: none;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0.5rem;
+  display: inline-flex;
+  position: relative;
+  max-width: fit-content;
+  min-width: fit-content;
 }
 
 .link-Primary {
+  position: relative;
+  width: 100%;
   margin-left: 0.5rem;
   background-color: var(--blue);
   border-radius: 0.5rem;
@@ -55,6 +61,8 @@ body {
 }
 
 .link-Secondary {
+  width: 100%;
+  position: relative;
   margin-left: 0.5rem;
   color: var(--blue);
   border-radius: 0.5rem;
@@ -65,118 +73,149 @@ body {
 
 .list-non-bullet {
   list-style: none;
-  padding-inline-start: 0px;
+  padding-bottom: 0rem;
+  margin-top: 0rem;
 }
 
 .list-item-inline {
-
   display: inline;
   padding: 0rem 0.3rem;
+
 }
 
 /* Navigation */
 
-
-
 .navigation {
- 
-  padding-bottom: 1rem;
+  padding-bottom: 0.7rem;
   background-color: var(--blue);
   color: white;
-  padding: 1rem;
-  border-bottom-left-radius: 1rem;
+  padding: 0.7rem;
+  border-bottom-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+  padding: auto;
+  margin: auto;
+  height: auto;
 }
 
 .navigation .nav-brand {
   text-align: left;
-  font-size: 1.5rem;
-
+  font-size: 1.2rem;
+  font-family: sans-serif;
 }
 
 .navigation .nav-pills {
   text-align: right;
   margin: 0.5rem 0.5rem;
-  
 }
 
 .navigation .link {
   color: white;
-  
 }
 
 .navigation .link-active {
   font-weight: bold;
   font-size: large;
-  
 }
 
 /* header */
 
 .hero {
-  padding: 5rem;
+  padding: 3rem;
+  padding-bottom: 2rem;
 }
 
 .hero-img {
-  max-width: 40rem;
-  display: block;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: auto;
+  height: auto;
+  scale: initial;
   margin: auto;
 }
 
 .hero .hero-heading {
   text-align: center;
-  font-size: 3rem;
+  font-size: 2.3rem;
   color: var(--light-blue);
 }
 
 .hero .hero-heading .heading-inverted {
   color: var(--blue);
+  text-align: center;
+}
 
+.secondary-style {
+  display: block;
+  text-align: center;
 }
 
 .section {
-  padding: 2rem;
+  padding: 2.2rem;
 }
 
 .section h1 {
   text-align: center;
+}
 
+.txt-spacing {
+  margin-bottom: 1.7rem;
 }
 
 .sky {
   background-color: #eff6ff;
-  padding-bottom: 2rem;
+  padding-top: 1.5rem;
+  padding-bottom: 3rem;
 }
-
-/* .sky-white {
-  background-color:var(--sky-white) ;
-} */
 
 /* footer */
 .footer {
   background-color: var(--blue);
-  padding: 1rem 0.3rem;
+  padding: 1rem 0.5rem;
   text-align: center;
   color: white;
-  border-top-right-radius: 0.2rem;
-  border-top-left-radius: 0.2rem;
+  border-top-left-radius: 1.1rem;
+  border-top-right-radius: 1.1rem;
 }
 
 .footer .link {
   color: white;
+
+}
+
+.crdt {
+  margin-top: 1.5rem;
+  margin-bottom: 0.3rem;
 }
 
 .footer .footer-header {
   font-weight: 650;
   font-size: large;
-  padding-bottom: 0.5rem;
+  margin-bottom: 0rem;
 }
 
 .footer ul {
   padding-inline-start: 0px;
-
 }
 
-.list-non-bullet {
-  padding-bottom: 2rem;
-  
+.container-center .showcase-list {
+  padding: 0rem;
+  border-radius: 3rem;
+  text-align: center;
+  margin: 0.8rem auto;
+}
+
+.showcase-list h1 {
+  margin: 0.2rem;
+}
+
+.showcase-list p {
+  padding-bottom: 0.7rem;
+}
+
+/** blogs **/
+
+.showcase-blog {
+  padding-bottom: 0rem;
+  text-align: center;
 }
