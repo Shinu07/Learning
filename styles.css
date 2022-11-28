@@ -3,7 +3,6 @@
   --light-blue: #93c5fd;
   --sky: #c9e8fd;
   --sky-white: #f0f9ff;
-  font-family: "Montserrat", sans-serif;
 }
 
 body {
@@ -16,28 +15,28 @@ body {
 
 .container {
   width: auto;
-  position: relative;
-  padding: 0rem 0.5rem;
+  /* position: relative; */
+  display: block;
   text-align: center;
-  box-sizing: border-box;
-  height: 100%;
-  min-height: auto;
-  max-height: fit-content;
+  /* box-sizing: border-box; */
+  /* height: 100%; */
+  /* min-height: auto;
+  max-height: fit-content; */
 
 }
 
 .container-center {
-  position: relative;
   padding: 1rem 1rem 1.5rem 1rem;
-  box-sizing: border-box;
   word-spacing: 2px;
-  border-radius: 1.2rem;
+  border-radius: 1.5rem;
   box-shadow: 7px 20px 50px skyblue;
-  width: 67%;
   margin: auto;
-  height: 100%;
-  min-height: auto;
-  max-height: fit-content;
+  margin-left:5% ;
+  margin-right:5%  ;
+  /* height: 100%; */
+  min-height: fit-content;
+  max-height:auto;
+  margin-bottom: 1.5rem;
 }
 
 /* links */
@@ -87,7 +86,7 @@ body {
 .list-non-bullet {
   list-style: none;
   padding-bottom: 0rem;
-  margin-top: 0rem;
+  /* margin-top: 0rem; */
   padding-left: 0rem;
   margin: auto;
 }
@@ -174,7 +173,8 @@ body {
 }
 
 .txt-spacing {
-  margin-bottom: 1.7rem;
+  margin-bottom: 1.5rem;
+  padding: 0.5rem;
 }
 
 .sky {
@@ -215,7 +215,8 @@ body {
 
 .container-center .showcase-list {
   padding: 0rem;
-  border-radius: 3rem;
+  border-radius: 1rem;
+  display: block;
   text-align: center;
   margin: 0.8rem auto;
 }
