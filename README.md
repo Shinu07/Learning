@@ -1,7 +1,7 @@
 # My Portfolio:
 This is my portfolio website
 
-This is a part of neogcamp level Zero programme.
+This is a part of NeogCamp level Zero programme.
 
 This portfolio project is made  using technologies like HTML, CSS, JAVASCRIPT
 
