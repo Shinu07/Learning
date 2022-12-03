@@ -21,6 +21,7 @@ a {
 
 p {
   text-align: center;
+
 }
 
 .firstp {
@@ -51,6 +52,26 @@ p {
   min-height: fit-content;
   margin-bottom: 1.5rem;
 }
+
+.container-blog{
+  font-size: large;
+  font-style:normal ;
+  max-width: 900px;
+  width: 100%;
+  margin: auto;
+  padding: 1rem 1rem 1.5rem 1rem;
+  word-spacing: 2px;
+  border-radius: 1.5rem;
+  
+}
+
+
+h2{
+  font-family: 'Heebo', sans-serif;
+  text-align: left;
+margin-top: 3rem;
+}
+
 
 /* links */
 
