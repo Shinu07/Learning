@@ -1,33 +1,33 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400&family=Kalam&family=Montserrat:wght@400;500&family=Raleway:wght@400;500&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300;400&family=Kalam&family=Montserrat:wght@400;500&family=Raleway:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;500&display=swap");
 :root {
   --blue: #0652f6;
   --light-blue: #93c5fd;
   --sky: #c9e8fd;
   --sky-white: #f0f9ff;
+  --dark-blue: #001950;
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "outfit", sans-serif;
   margin: 0rem;
   padding: 0rem;
 }
 
-
 a {
+  font-family: Montserrat;
   font-weight: normal;
 }
 
 p {
   text-align: center;
-
+  font-size: large;
 }
 
 .firstp {
-  font-weight: bold;
-  font-size: larger;
-  font-style: normal;
+  font-weight: 500;
+  font-size: large;
+  font-style: italic;
 }
 
 /* container */
@@ -36,8 +36,6 @@ p {
   width: auto;
   display: block;
   text-align: center;
-
-
 }
 
 .container-center {
@@ -46,34 +44,39 @@ p {
   border-radius: 1.5rem;
   box-shadow: 7px 20px 50px skyblue;
   margin: auto;
+  max-width: 65%;
   margin-left: 5%;
   margin-right: 5%;
   height: 100%;
   min-height: fit-content;
   margin-bottom: 1.5rem;
+  margin: 0.8rem auto;
 }
 
-.container-blog{
+.container-blog {
   font-size: large;
-  font-style:normal ;
+  font-style: normal;
   max-width: 900px;
   width: 100%;
   margin: auto;
   padding: 1rem 1rem 1.5rem 1rem;
   word-spacing: 2px;
   border-radius: 1.5rem;
-  
 }
 
-
-h2{
-  font-family: 'Heebo', sans-serif;
+h2 {
+  font-family: "Heebo", sans-serif;
   text-align: left;
-margin-top: 3rem;
+  margin-top: 3rem;
 }
-
 
 /* links */
+
+.h-title {
+  font-size: larger;
+  font-weight: 700;
+  text-shadow: 3px 2px 15px rgb(119, 232, 255);
+}
 
 .link {
   text-decoration: none;
@@ -85,7 +88,6 @@ margin-top: 3rem;
 }
 
 .link-Primary {
-
   width: 100%;
   font-size: medium;
   background-color: var(--blue);
@@ -102,7 +104,6 @@ margin-top: 3rem;
   border-radius: 0.5rem;
   border: 1px solid var(--blue);
 }
-
 
 /* blog */
 .bloglinkSecondary {
@@ -129,7 +130,6 @@ margin-top: 3rem;
 .list-item-inline {
   display: inline;
   padding: 0rem 0.3rem;
-
 }
 
 /* Navigation */
@@ -149,7 +149,7 @@ margin-top: 3rem;
 .navigation .nav-brand {
   text-align: left;
   font-size: 1.2rem;
-  font-family:  "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .navigation .nav-pills {
@@ -174,7 +174,6 @@ margin-top: 3rem;
 }
 
 .hero-img {
-
   display: block;
   width: 35%;
   margin: auto;
@@ -186,10 +185,9 @@ margin-top: 3rem;
   text-align: center;
   font-size: 2.3rem;
   color: var(--light-blue);
-
 }
 
-.hero .hero-heading .heading-inverted-home{
+.hero .hero-heading .heading-inverted-home {
   color: var(--blue);
   text-align: center;
   display: block;
@@ -198,12 +196,12 @@ margin-top: 3rem;
 .hero .hero-heading .heading-inverted {
   color: var(--blue);
   text-align: center;
- 
 }
 
 .secondary-style {
   display: block;
   text-align: center;
+  font-family: Montserrat;
 }
 
 .section {
@@ -211,8 +209,9 @@ margin-top: 3rem;
 }
 
 .section h1 {
-  font-size: 1.7rem;
-
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--dark-blue);
 }
 
 .txt-spacing {
@@ -226,12 +225,11 @@ margin-top: 3rem;
   padding-bottom: 3rem;
 }
 
-
-
 /** blogs **/
 
 .container-center .showcase-list {
   padding: 0rem;
+  min-width: fit-content;
   border-radius: 1rem;
   display: block;
   text-align: center;
@@ -263,7 +261,6 @@ margin-top: 3rem;
 
 .footer .link {
   color: white;
-
 }
 
 .footer .footer-header {
@@ -276,9 +273,7 @@ margin-top: 3rem;
   padding-inline-start: 0px;
 }
 
-
 .crdt {
   margin-top: 1.5rem;
   margin-bottom: 0.3rem;
 }
-
